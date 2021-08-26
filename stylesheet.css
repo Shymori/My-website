@@ -1,0 +1,59 @@
+html{
+
+    text-align: justify;
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+    color: #7f471f;
+    font-family: Courier;
+    margin:auto;
+
+}
+section{
+    max-width: 70%;
+    margin: auto;
+}
+.licontato{
+    list-style: none;
+}
+.botao{
+    background-color: #7f471f;
+    color: white;
+    border: none;
+    font-family: verdana;
+    
+}
+h1{
+    font-family: 'Klee One', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.espaco{
+    padding-bottom: 10%;
+    background-color: #e4d2c3;
+    text-align: center;
+
+}
+.centro{
+    text-align: center;
+}
+.foto{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 50%;
+    padding: 5%;
+    
+}
+footer{
+    padding-top: 5%;
+}
+.colunas {
+
+    -webkit-column-count:2; /* Chrome, Safari, Opera */
+    -moz-column-count:2;    /* Firefox */
+    column-count:2;         /* padrão */
+    
+}
