@@ -1,59 +1,101 @@
-html{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
 
-    text-align: justify;
-    margin: 0;
-	padding: 0;
-	border: 0;
+  --color:  #7f471f;
+  --title-color: #5a2e0f;
+  --text-color:  #7f471f;
+  --back-color: #e4d2c3;
 }
-body{
-    color: #7f471f;
-    font-family: Courier;
-    margin:auto;
+.logo{
+  color: var(--color);
+  font-family: 'Overlock', cursive, Courier;
+  font-size: 180%;/*font-size: 1.31rem;*/
+  font-weight: 900;
+  pointer-events: none;
+  
+}
+html {
+  text-align: justify;
+}
+
+body {
+  color: var(--text-color);
+  font-family: 'Overlock', cursive,  Courier, arial;
+  font-weight: 400;
+  margin: 0 auto;
+}
+section {
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 120%;
+  padding-bottom: 2rem;
+}
+nav {
+  color: var(--color);
+  display: flex;
+  justify-content: space-between;
+  height: 4.5rem;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100 ;
+  background-color: var(--back-color); 
+  width: 100%;
+  
+}
+a{
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--title-color);
+  font-family: 'Klee One', cursive, arial;
+  font-size: 400%; /* font-size: 1.875rem */
+  text-align: center;
 
 }
-section{
-    max-width: 70%;
-    margin: auto;
+.logo span{
+  color: rgb(243, 243, 243);
 }
-.licontato{
-    list-style: none;
+footer {
+  padding-top: 5%;
 }
-.botao{
-    background-color: #7f471f;
-    color: white;
-    border: none;
-    font-family: verdana;
-    margin-bottom: 5%;
+.foto {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 40%;
+  border-radius: 50%;
+  padding: 5%;
 }
-h1{
-    font-family: 'Klee One', cursive;
-    font-size: 60px;
-    text-align: center;
+.licontato {
+  list-style: none;
 }
-.espaco{
-    padding-bottom: 10%;
-    background-color: #e4d2c3;
-    text-align: center;
+.botao {
+  background-color: #7f471f;
+  color: white;
+  border: none;
+  font-family: verdana;
+  margin: 0.5%;
+}
+.divider-1{
+  height: 1px;
+  background: linear-gradient(300deg, #7f471f 0%, #dbdbdb 100%);
+}
+.espaco {
+  padding-bottom: 5%;
+  background-color: #e4d2c3;
+  text-align: center;
+  font-family:'Arima Madurai';
+  margin-top: 4.5rem;
+}
+.centro {
+  text-align: center;
+}
 
-}
-.centro{
-    text-align: center;
-}
-.foto{
-    display: block;
-    margin: auto;
-    width: 40%;
-    border-radius: 50%;
-    padding: 5%;
-    
-}
-footer{
-    padding-top: 5%;
-}
-.colunas {
 
-    -webkit-column-count:2; /* Chrome, Safari, Opera */
-    -moz-column-count:2;    /* Firefox */
-    column-count:2;         /* padrão */
-    
-}
