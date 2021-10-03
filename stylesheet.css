@@ -34,6 +34,10 @@ section {
   font-size: 120%;
   padding-bottom: 2rem;
 }
+article a{
+  color: #5a2e0f;
+  font-weight: 600;
+}
 nav {
   color: var(--color);
   display: flex;
@@ -75,6 +79,9 @@ footer {
 }
 .licontato {
   list-style: none;
+}
+.licontato a{
+  color: #5a2e0f;
 }
 .botao {
   background-color: #7f471f;
